@@ -1,0 +1,98 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.object{
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+	margin: 0;
+}
+
+.one{
+	background-image: url('images/swinglay-final.jpg');
+}
+
+.two{
+	background-image: url('images/hands.jpg');
+}
+
+.three{
+	background-image: url('images/background.jpeg');
+}
+
+/* ~~~~~~NAV~~~~~~*/
+
+nav{
+	width: 100%;
+	height: 15%;
+	background-color: #fff8b8;
+	position: fixed;
+	z-index: 100;
+	
+}
+nav img{
+	position: fixed;
+	top: 1%;
+	left: 0.5%;
+}
+nav li{
+	display: inline-block;
+	font-family: 'Quicksand', sans-serif;
+	text-decoration: none;
+	color: green;
+	font-size: 260%;
+	
+}
+nav ul{
+	transform: translate(57%, 3%);
+	display: inline-block;
+	word-spacing: 0px;
+	font-variant: small-caps;
+
+}
+#calander{
+	height: 35px;
+	width: 35px;
+	transform: translate(2965%, 1%);
+}
+#phone{
+	height: 35px;
+	width: 35px;
+	transform: translate(2965%, 120%);
+}
+#hours-text{
+	font-family: 'Quicksand', sans-serif;
+	transform: translate(80%, -340%);
+	font-variant: small-caps;
+	font-size: 150%;
+}
+#phone-text{
+	font-family: 'Quicksand', sans-serif;
+	transform: translate(81%, -380%);
+	letter-spacing: 2px;
+	font-variant: small-caps;
+	font-size: 150%;
+}
+
+/*~~~~~~body~~~~~~*/
+
+#number1{
+	height: 85%;
+	width:80%;
+	background-color: ;
+	position: absolute;
+	bottom:0;
+	left:10%;
+
+
+}

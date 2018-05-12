@@ -1,0 +1,115 @@
+*{
+	margin:0;
+}
+
+html, body{
+	height:100%;
+}
+
+h1, h2, h3, h4, h5,h6, p{
+	margin-bottom: 20px;
+}
+
+nav{
+	width:100%;
+	height:100px;
+	background-color: #fbf4ff;
+	position: fixed;
+	top: 0px;
+	
+}
+nav a{
+ font-family: 'Quicksand', sans-serif;
+ font-size: 30px;
+ display: inline-block;
+ padding: 0;
+ margin: 0;
+ padding: 10px;
+ text-decoration: none;
+ color: black;
+
+}
+#calander{
+	height:30px;
+	width:30px;
+	position: fixed;
+	top:20px;
+	right:290px;
+}
+.hours{
+	position: fixed;
+	top:25px;
+	right:15px;
+	font-size:19px;
+}
+#phone{
+	height:30px;
+	width:30px;
+	position: fixed;
+	top:65px;
+	right:290px;
+}
+.contact{
+	position: fixed;
+	top:65px;
+	right:145px;
+	font-size:21px;
+	letter-spacing: 2px;
+}
+
+ 
+.logo{	
+	position: absolute;
+	top:20px;
+	left:35px;
+	display: inline-block;
+
+	
+}
+
+.sect{
+	height:100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+.subSection{
+	height:0%;
+	background-color: pink;
+}
+
+.sectOne{
+	background-image: url('images/swing.jpeg');
+}
+#overlay{
+	width: 1200px;
+	height: 700px;
+	margin: 10px auto;
+	padding: 20px;
+	background-color: white;
+	opacity: 0.3;
+	position: absolute;
+	top: 110px;
+	left:55px;
+}
+#overlay-p{
+	position: absolute;
+	top: 120px;
+	left:50px;
+	font-size:50px;
+	font-variant: small-caps;
+	text-align: justify;
+	color:#2a3238;
+	font-family: 'Bitter', serif;
+
+
+}
+.sectTwo{
+	background-image: url('images/hands.jpg')
+}
+
+.sectThree{
+	background-image: url('images/background.jpeg')
+}
